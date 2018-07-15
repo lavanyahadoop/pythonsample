@@ -1,0 +1,10 @@
+from random import randint
+print("your random number is:",randint(0,6))
+person=input('Would you like to roll again :')
+
+# while person =="yes":
+if person=="yes":
+ print('roll again')
+ print( "your random number is:", randint( 0, 6 ) )
+else:
+ print("pass the dice to next person")
