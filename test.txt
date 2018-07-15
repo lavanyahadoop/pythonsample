@@ -8,3 +8,15 @@ if person=="yes":
  print( "your random number is:", randint( 0, 6 ) )
 else:
  print("pass the dice to next person")
+ 
+ 
+ from random import randint
+magic =randint(0,9)
+print("The number is ",magic)
+person =int(input('please guess the number:'))
+if magic == person:
+    print("your guess is correct")
+elif person <= 2:
+    print("the number is closer")
+elif person >=4:
+    print("the number is closer")
